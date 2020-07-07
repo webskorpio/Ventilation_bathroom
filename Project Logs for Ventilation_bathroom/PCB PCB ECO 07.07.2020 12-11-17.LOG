@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetD2_1 Pin=R9-1
+Removed Pin From Net: NetName=NetC1_2 Pin=R9-2
+Removed Pin From Net: NetName=NetD1_2 Pin=R9-3
+Added Component: Designator=R9(BOUR-3362P)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD2_1 Pin=R9-1
+Added Pin To Net: NetName=NetC1_2 Pin=R9-2
+Added Pin To Net: NetName=NetD1_2 Pin=R9-3
+Added Member To Class: ClassName=Schematic Member=Component R3 RES-0.125
+Added Member To Class: ClassName=Schematic Member=Component R5 RES-0.125

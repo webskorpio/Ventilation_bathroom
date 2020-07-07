@@ -1,0 +1,28 @@
+Change Component Footprint: Designator=R9 Old Footprint=BOUR-3296W New Footprint=BOUR-3296W
+Change Component Footprint: Designator=P1 Old Footprint=MOLX-22-27-2041_V New Footprint=MOLX-22-27-2041_V
+Change Component Footprint: Designator=U1 Old Footprint=SO-8_N New Footprint=SO-8_N
+Added Component: Designator=J1(DG301-5.0-02P-1X)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nb-kaifeng.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.nb-kaifeng.com/upload/editor/ext_pdf/201305290533202245.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "5000 MOhm / 1000 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Cixi KaiFeng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pole"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Terminal Block, Pitch 2.54 mm, 1 x 2 Position, Height 8.6 mm, Tail Length 3.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "KF120-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "KF120-02P-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "Single Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "6 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "150 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temp. Range"; Value = "-40 to 105 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "AC 1500 V / 1 Min"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=+12 Pin=J1-2
+Added Member To Class: ClassName=Schematic Member=Component J1 KF120-02P-14
+Added Room: Name=Schematic

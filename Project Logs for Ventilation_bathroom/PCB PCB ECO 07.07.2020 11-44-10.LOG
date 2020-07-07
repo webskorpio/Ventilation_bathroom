@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=NetQ1_1 Pin=Q1-1
+Removed Pin From Net: NetName=NetP1_4 Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=Q1-3
+Removed Pin From Net: NetName=NetR2_1 Pin=R2-1
+Removed Pin From Net: NetName=NetR3_1 Pin=R3-1
+Removed Pin From Net: NetName=NetR2_1 Pin=R5-2
+Removed Pin From Net: NetName=NetR3_1 Pin=R6-2
+Removed Pin From Net: NetName=NetC3_2 Pin=U1-5
+Removed Pin From Net: NetName=NetR10_1 Pin=U1-6
+Change Component Footprint: Designator=R9 Old Footprint=BOUR-3296W New Footprint=BOUR-3296W
+Change Component Footprint: Designator=P1 Old Footprint=MOLX-22-27-2041_V New Footprint=MOLX-22-27-2041_V
+Change Component Footprint: Designator=U1 Old Footprint=SO-8_N New Footprint=SO-8_N
+Change Component Footprint: Designator=Q1 Old Footprint=TO-220 New Footprint=TO-92A
+Change Component Comment : Designator=Q1 Old Comment=IRFZ44N New Comment=2N7000
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change component parameters: Designator = "Q1"; Footprint = "TO-92A"; UniqueID = "\XAOTAOWZ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Channel Type"; Value = "N-Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/6383/irlml2502pbf-6383216.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Apr-14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain-Source On Resistance-Max"; Value = "0.045O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drain-to-Source Voltage [Vdss]"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "International Rectifier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://internationalrectifier.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "3-Pin Small Outline Transistor, Body 2.92 x 1.3 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Qg Gate Charge"; Value = "8nC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power Dissipation"; Value = "1.25W"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-2
+Added Pin To Net: NetName=NetP1_4 Pin=Q1-3
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR2_1 Pin=R5-2
+Added Pin To Net: NetName=NetR3_1 Pin=R6-2
+Added Pin To Net: NetName=NetR10_1 Pin=U1-5
+Added Pin To Net: NetName=NetC3_2 Pin=U1-6
+Change Net Name : Old Net Name=NetQ1_1 New Net Name=NetQ1_2
+Added Room: Name=Schematic
